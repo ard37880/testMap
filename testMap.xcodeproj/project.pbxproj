@@ -14,6 +14,7 @@
 		D5C591CE27F39CE700AD69C3 /* testMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C591CD27F39CE700AD69C3 /* testMapTests.swift */; };
 		D5C591D827F39CE700AD69C3 /* testMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C591D727F39CE700AD69C3 /* testMapUITests.swift */; };
 		D5C591DA27F39CE700AD69C3 /* testMapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C591D927F39CE700AD69C3 /* testMapUITestsLaunchTests.swift */; };
+		D5C591E727F3A01C00AD69C3 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C591E627F3A01C00AD69C3 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		D5C591D327F39CE700AD69C3 /* testMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5C591D727F39CE700AD69C3 /* testMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testMapUITests.swift; sourceTree = "<group>"; };
 		D5C591D927F39CE700AD69C3 /* testMapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testMapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D5C591E627F3A01C00AD69C3 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				D5C591BE27F39CE700AD69C3 /* ContentView.swift */,
 				D5C591C027F39CE700AD69C3 /* Assets.xcassets */,
 				D5C591C227F39CE700AD69C3 /* Preview Content */,
+				D5C591E627F3A01C00AD69C3 /* WebView.swift */,
 			);
 			path = testMap;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5C591E727F3A01C00AD69C3 /* WebView.swift in Sources */,
 				D5C591BF27F39CE700AD69C3 /* ContentView.swift in Sources */,
 				D5C591BD27F39CE700AD69C3 /* testMapApp.swift in Sources */,
 			);
