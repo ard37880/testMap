@@ -10,8 +10,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         NavigationView {
-            SwiftUIWebView (url: URL(string: "http://www.apple.com/"))
-                .navigationTitle("WebView")
+            SwiftUIWebView (url: URL(string: "http://www.apple.com"))
+                .navigationTitle("a")
+                .edgesIgnoringSafeArea(.all)
+                .navigationBarHidden(true)
         }
         
     }
